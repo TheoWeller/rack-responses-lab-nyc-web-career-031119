@@ -7,5 +7,6 @@ resp = Rack::Response.new
     else
       resp.write "Good morning!"
     end
+      resp.finish
   end
 end
