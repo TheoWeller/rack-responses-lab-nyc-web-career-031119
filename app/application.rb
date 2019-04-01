@@ -7,7 +7,7 @@ time = Time.new.hour
     when time > 12
       resp.write "Good Afternoon!"
     when time < 12
-      resp.write "Good morning!"
+      resp.write "Good Morning!"
     end
       resp.finish
   end
